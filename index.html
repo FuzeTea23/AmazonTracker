@@ -3,10 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Il Mio Sito Web</title>
+    <title>Tracker Prodotti Amazon</title>
 </head>
 <body>
-    <h1>Benvenuto nel mio sito web!porcodio</h1>
-    <p>Questo è un sito web ospitato su GitHub Pages.</p>
+    <h1>Benvenuto nel Tracker Prodotti Amazon</h1>
+    <form id="product-form">
+        <label for="product-model">Modello del Prodotto:</label>
+        <input type="text" id="product-model" name="product-model" required>
+        <button type="submit">Aggiungi Prodotto</button>
+    </form>
+    <div id="product-list"></div>
 </body>
 </html>
